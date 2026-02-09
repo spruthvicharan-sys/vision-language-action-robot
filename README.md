@@ -25,3 +25,18 @@ Python • PyTorch • (Simulation added next)
 
 ## Status
 Work in progress — starting with a clean baseline and improving iter
+
+## Experiments
+
+This repository currently includes a minimal baseline experiment using
+synthetic data to validate the vision-language-action pipeline.
+
+- Visual features and language features are randomly generated placeholders
+- The model is trained using a simple regression loss
+- Evaluation verifies that the model produces valid action outputs
+
+This setup is intentionally simple and designed to be extended with:
+- simulation environments (e.g., robotic manipulation tasks)
+- imitation learning or reinforcement learning
+- real visual encoders and language models
+
